@@ -17,4 +17,18 @@ public class HomeController {
         return "index";
     }
 
+    @RequestMapping("/about")
+    public String aboutMe(){
+        return "about";
+    }
+    @RequestMapping("/git")
+    public String inherit(){
+        return "git";
+    }
+    @RequestMapping("/comp")
+    public String acomp(){
+        return "comp";
+    }
+
+
 }
