@@ -4,6 +4,8 @@
 <body>
 <nav th:replace="base :: navbar"></nav><br />
 <div class="container">
+    <div class="row">
+    <div class="col-md-8">
     <div class="card">
         <div class="card-header justify-content-left" style="color: black">
             <h3>Object Oriented Programming - Composition</h3>
@@ -22,6 +24,34 @@
             <p class="card-text">Quick Overview of Inheritance</p>
             <p class="card-text justify-content-right"><a class="btn btn-info btn-large stretched-link" role="button" href="/git">View More</a></p>
         </div>
+    </div>
+    </div>
+    <div class="col-md-4">
+        <div class="card">
+            <h5 class="card-header" style="color:black">
+                Search
+            </h5>
+            <div class="card-body">
+                <div class="input-group">
+                    <input type="text" class="form-control" placeholder="Search here...">
+                    <span class="input-group-btn"><button class="btn btn-dark" type="button">GO</button></span>
+                </div>
+            </div>
+        </div>
+        <br/>
+        <div class="card">
+            <h5 class="card-header" style="color:black">
+                More Resources
+            </h5>
+            <div class="card-body">
+                <ul class="list-group list-group-flush">
+                    <li class="list-group-item"><a href="https://docs.oracle.com/javase/tutorial/">Oracle Java Tutorial</a></li>
+                    <li class="list-group-item"><a href="https://www.w3schools.com/java/">W3 Schools Java Tutorial</a></li>
+                    <li class="list-group-item"><a href="https://www.codecademy.com/learn/learn-java">Interactive CodeAcademy Tutorial</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
     </div>
 </div>
 <footer th:replace="base :: footer"></footer>
